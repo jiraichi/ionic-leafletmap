@@ -1,1 +1,44 @@
+ion-toolbar {
+  --background: #f5f5f5;
+  --color: #3a99d9;
+}
 
+ion-card-title {
+  background: linear-gradient(
+    35deg,
+    rgba(18, 144, 144, 1) 0%,
+    rgba(231, 233, 187, 1) 90%,
+    rgba(18, 144, 144, 1) 100%
+  );
+  height: 45px;
+  border-radius: 5px 5px 0px 0px;
+  padding: 5px;
+  padding-top: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+ion-badge {
+  --background: #3a99d9;
+  --color: #ffffff;
+  --padding-bottom: 4px;
+  --padding-end: 4px;
+  --padding-start: 4px;
+  --padding-top: 4px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+p {
+  padding: 5px;
+}
+
+@media (min-width: 700px) {
+  ion-card {
+    max-width: 50%;
+    margin: auto;
+  }
+}

@@ -1,14 +1,41 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Ionic Blank
+      Locations
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-  <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
-  </div>
+  <ion-card>
+    <a href="/academia">
+      <ion-card-title>
+        Academia
+      </ion-card-title>
+
+      <ion-card-content>
+        <ion-img src="assets/images/academia.jpg"></ion-img
+      ></ion-card-content>
+
+      <ion-item>
+        <ion-icon name="business" item-start></ion-icon>
+        <ion-label>Type</ion-label>
+        <ion-badge item-end>Hostel</ion-badge>
+      </ion-item>
+      <ion-item>
+        <ion-icon name="bus" item-start></ion-icon>
+        <ion-label>Upcoming Bus</ion-label>
+        <ion-badge item-end>18:00</ion-badge>
+      </ion-item>
+      <ion-item>
+        <ion-icon name="call" item-start></ion-icon>
+        <ion-label>Contact Number</ion-label>
+        <ion-badge item-end>010-4348575</ion-badge>
+      </ion-item>
+
+      <ion-item>
+        <ion-label text-right style="color: #3a99d9;">Read more</ion-label>
+      </ion-item>
+    </a>
+  </ion-card>
 </ion-content>
