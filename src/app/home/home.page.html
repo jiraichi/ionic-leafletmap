@@ -8,14 +8,11 @@
 
 <ion-content>
   <ion-card>
-    <a href="/academia">
-      <ion-card-title>
-        ACADEMIA @ SCP
-      </ion-card-title>
-
-      <ion-card-content>
-        <ion-img src="assets/images/academia.jpg"></ion-img
-      ></ion-card-content>
+    <ion-card-title>
+      ACADEMIA @ SCP
+    </ion-card-title>
+    <ion-card-content>
+      <div id="mapId" style="width: 100%; height: 250px;"></div>
       <ion-list lines="none">
         <ion-item>
           <ion-icon name="business" item-start></ion-icon>
@@ -33,10 +30,14 @@
           <ion-badge item-end>010-4348575</ion-badge>
         </ion-item>
         <ion-item>
-          <ion-label text-right style="color: #3a99d9;">Read more</ion-label>
+          <ion-buttons>
+            <ion-button class="map-button" href="/academia">
+              <ion-icon name="pin" class="map-button-icon"></ion-icon>
+            </ion-button>
+          </ion-buttons>
         </ion-item>
       </ion-list>
-    </a>
+    </ion-card-content>
   </ion-card>
 
   <ion-card>
