@@ -5,7 +5,10 @@ ion-toolbar {
 ion-title {
   font-weight: 900;
 }
-
+ion-card {
+  margin-top: 20px;
+}
+//TODO  insert color variable
 ion-card-title {
   background: linear-gradient(
     35deg,
@@ -13,10 +16,14 @@ ion-card-title {
     rgba(231, 233, 187, 1) 90%,
     rgba(18, 144, 144, 1) 100%
   );
-  height: 45px;
+  height: 60px;
   color: white;
   font-weight: 700;
-  padding: 10px;
+  padding: 20px;
+}
+
+ion-label {
+  padding-left: 10px;
 }
 
 ion-badge {
@@ -26,8 +33,10 @@ ion-badge {
   --padding-end: 4px;
   --padding-start: 4px;
   --padding-top: 4px;
+  font-weight: 700;
 }
 
+//TODO  figure out more efficient way of making card clickable, ?use button?
 a {
   color: inherit;
   text-decoration: none;
