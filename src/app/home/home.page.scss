@@ -18,7 +18,7 @@ ion-card-title {
     rgba(18, 144, 144, 1) 100%
   );
   height: 60px;
-  color: white;
+  color: #ffffff;
   font-weight: 700;
   padding: 20px;
 }
@@ -37,25 +37,24 @@ ion-badge {
   font-weight: 700;
 }
 
-.map-button {
-  margin-left: calc(100% + 250px);
-  background-color: #3999d9;
-  border-radius: 50%;
-}
-
-.map-button-icon {
-  color: #ffffff;
-}
-
-//TODO  figure out more efficient way of making card clickable, ?use button, there is a way to add tap func into a card hmm?
-a {
-  color: inherit;
-  text-decoration: none;
+@media (min-width: 400px) {
+  ion-card {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media (min-width: 700px) {
   ion-card {
-    max-width: 50%;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (min-width: 1000px) {
+  ion-card {
+    max-width: 30%;
     margin-left: auto;
     margin-right: auto;
   }
